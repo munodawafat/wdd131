@@ -3,10 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <title>WDD 131 - Dynamic Web Development - Tapiwa Phineas Munodawafa</title>
+    <meta name="description" content="This is a sample webpage for WDD 131 - Dynamic Web Development course. Developed by Tapiwa Phineas Munodawafa.">
+    <meta name="author" content="TAPIWA PHINEAS MUNODAWAFA">
+    <script src="scripts/getdates.js" defer></script>
+    <link rel="stylesheet" href="styles/bass.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>WDD 131</h1>
-    <p>TAPIWA PHINEAS MUNODAWAFA</p>
+    <header>
+       <span id = "course">WDD 131 - Dynamic Web Development</span>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com/">Canvas</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7">Scripture</a></li>
+                <li><a href="https://www.example.com/final-project">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Tapiwa Phineas Munodawafa</h1>
+        <section class="card">
+            <h2>About Me</h2>
+            <div class="me">
+                <img class="profile" src="images/profile.jpg" alt="Profile Picture of Tapiwa Phineas Munodawafa">
+                <p>My name is Tapiwa Phineas Munodawafa, and I am a student at BYU-Pathway Worldwide, currently enrolled in the WDD 131 - Dynamic Web Development course. I have a passion for web development and look forward to learning more about creating dynamic and interactive web applications.</p>
+            </div>
+        </section>
+        <section class="card">
+            <h3>Country Info</h3>
+            <div class="country">
+                <img class="zim-flag" src="images/zim-flag.jpg" alt="Flag of Zimbabwe">
+                <p>My country Zimbabwe. Zimbabwe is a landlocked country in Southern Africa, known for its rich cultural heritage, beautiful landscapes, wildlife, and the famous Victoria Falls. It has a long history, diverse communities, and significant natural resources. Independence: 18 April 1980</p>
+            </div>    
+        </section>
+    </main>
+
+    <aside>     
+        <p>Welcome to my WDD 131 course page!</p>
+    </aside>
+    <footer>
+        <p> ©️ <span id="copyrightYear"></span> Tapiwa Phineas Munodawafa. Zimbabwe. All rights reserved.</p>
+        <p class="lastModified">Last Modification:
+            <time id="lastModified"></time>
+        </p>
+    </footer>
 </body>
 </html>
